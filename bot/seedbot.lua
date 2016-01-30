@@ -226,29 +226,22 @@ function create_config( )
     "leave_ban",
     "admin"
     },
-    sudo_users = {110626080,103649648,111020322,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {157187288,,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v2 - Open Source
+    about_text = [[focusantispam v2 - Open Source
 An advance Administration bot based on yagop/telegram-bot 
 
-https://github.com/SEEDTEAM/TeleSeed
+https://github.com/focusworld/focusantispam
 
 Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@Rondoozle [Developer]
-@seyedan25 [Manager]
+@mamaligodem [Founder]
 
 Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
-
+mamaligodem
+amir hossein
 Our channels
-@teleseedch [English]
-@iranseed [persian]
+@focusteam [persian]
 ]],
     help_text_realm = [[
 Realm Commands:
